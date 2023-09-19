@@ -1,0 +1,27 @@
+/* cards.css */
+.card {
+  width: 200px;
+  background: linear-gradient(to bottom, #8b4513, #3a150c);
+  border: 2px solid #3a150c;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+}

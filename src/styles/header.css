@@ -1,0 +1,29 @@
+.header-div {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 0 2rem;
+  width: 100%;
+  align-items: center;
+}
+.header-div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 8px;
+  padding: 1rem;
+  background: linear-gradient(to bottom, #8b4513, #3a150c);
+  border: 2px solid #3a150c;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.header-div h3 {
+  margin: 0;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.logo img {
+  width: 300px;
+  margin: 0;
+}

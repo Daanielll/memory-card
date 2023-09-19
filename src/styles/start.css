@@ -1,0 +1,48 @@
+/* start.css */
+.start-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-div * {
+  margin: 0;
+  padding: 0;
+}
+
+.start-div img {
+  width: 450px; /* Increased the image size */
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.start-div h3 {
+  font-size: 2.5rem;
+  color: #00b0f0; /* Light blue color like Rick and Morty's logo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px rgba(33, 29, 14, 1); /* Text stroke with specific color */
+  text-stroke: 1px rgba(33, 29, 14, 1); /* Text stroke with specific color */
+}
+
+.start-div ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.start-div li {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(33, 29, 14, 1); /* Specific color for button border */
+  background-color: #00b0f0; /* Light blue color for the background */
+  color: #fff; /* White text color for better readability */
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-div li:hover {
+  background-color: #0090c0; /* Slightly darker blue color on hover */
+}
